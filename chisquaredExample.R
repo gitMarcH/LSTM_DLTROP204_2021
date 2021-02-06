@@ -30,7 +30,7 @@ for(i in 1:nrow(observed)){
 
 ChiSq.manual<-sum((observed-expected)^2/expected)
 
-print(ChiSq)
+print(ChiSq.manual)
 
 
 ############################################################
